@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+div.card {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  padding: 30px;
+  box-shadow: 5px 8px 22px 15px rgba(0, 0, 0, 0.2);
+}
+div.card div.text h1 {
+  font-size: 1.8rem;
+  height: 3rem;
+  font-family: "Jost", sans-serif;
+}
+div.card div.text h2 {
+  font-size: 1.2rem;
+  font-family: "open-sans", sans-serif;
+  color: #6a6d78;
+  opacity: 0.7;
+}
+div.card div.img {
+  width: 100%;
+}
+div.card div.img img {
+  width: 100%;
+}
+div.card p {
+  position: absolute;
+  font-size: 1.2rem;
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #80d0c7;
+  top: 30px;
+  right: 15px;
+}/*# sourceMappingURL=card.component.css.map */
